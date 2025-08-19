@@ -18,9 +18,6 @@ public class Calculator {
       System.out.println("Cannot divide by 0");
       return 0;
     }
-    if (y == 1) {
-      return 1;
-    }
     return x / y;
   }
 }
