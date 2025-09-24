@@ -14,9 +14,8 @@ public class Calculator {
   }
 
   public static double divide(double x, double y) {
-    if (y == 0) {
-      System.out.println("Cannot divide by 0");
-      return 0;
+    if (x == 1.0) {
+      return 1.0 / y;
     }
     if (y == 1) {
       return x;
